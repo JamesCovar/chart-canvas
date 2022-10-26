@@ -46,7 +46,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## SCSS | CSS Architecture
-scss/                               # Import all ‘-dir.scss’ files
+`scss/                               # Import all ‘-dir.scss’ files
 |
 |- abstracts/                   
 |	|- __abstracts-dir.scss     # Import all abstracts .scss files
@@ -74,4 +74,4 @@ scss/                               # Import all ‘-dir.scss’ files
 |	…                           # Etc.
 |
 |
-`index.scss                        # Main Scss File
+index.scss                        # Main Scss File`
