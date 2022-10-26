@@ -1,0 +1,8 @@
+$gutter: 20px;
+
+.dashboard-layout {
+    --grid-cols: 12;
+    @extend .grid;
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    column-gap: $gutter;
+}

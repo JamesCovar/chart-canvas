@@ -63,10 +63,6 @@ scss/                          # Import all ‘-dir.scss’ files
 |
 |- components/
 |	|- __components-dir.scss    # Import all components .scss files
-|	|- _button.scss             # Button Styles
-|	|- _input.scss              # Input Styles
-|	|- _modal.scss              # Modal Styles
-|	…	                    # Etc.
 |
 |- layouts/
 |	|- __layouts-dir.scss       # Import all layouts .scss files
