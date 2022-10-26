@@ -5,4 +5,9 @@ $gutter: 20px;
     @extend .grid;
     grid-template-columns: repeat(var(--grid-cols), 1fr);
     column-gap: $gutter;
+    justify-content: center;
+
+    .item {
+        grid-column: 1/7;
+    }
 }

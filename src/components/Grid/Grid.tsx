@@ -1,5 +1,5 @@
 import React from "react";
-import { IGridProps } from "./gridTypes";
+import { IGridProps } from "./GridTypes";
 
 export default function Grid({
   children,
