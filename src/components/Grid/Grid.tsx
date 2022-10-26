@@ -5,12 +5,12 @@ export default function Grid({
   children,
   grid,
   item,
-  layoutName = '', 
+  layoutName = "",
   styles = {},
-  customClassNames = '',
+  customClassNames = "",
 }: IGridProps) {
   const gridClass = {
-    type: item ? 'item' : grid ? 'grid' : '',
+    type: item ? "item" : grid ? "grid" : "",
   };
 
   return (

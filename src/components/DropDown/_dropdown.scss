@@ -1,0 +1,43 @@
+.Dropdown {
+  position: relative;
+  margin-left: 20px;
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding-left: 10px;
+    cursor: pointer;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .options {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+  }
+
+  ul {
+    margin: 5px 0 5px 0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    color: black;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    &:hover {
+      background-color: #134395;
+      color: white;
+    }
+  }
+}

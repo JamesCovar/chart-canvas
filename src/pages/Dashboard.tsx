@@ -9,8 +9,6 @@ export default function Dashboard() {
       <Modal>
         <Grid grid layoutName="dashboard-layout">
           <Grid item>
-            <h1>Auto Generated Chart</h1>
-            <span> Subtitle of generated chart </span>
           </Grid>
         </Grid>
       </Modal>
